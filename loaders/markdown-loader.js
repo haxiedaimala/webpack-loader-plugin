@@ -2,6 +2,7 @@ require('loader-utils')
 const validateOptions = require('schema-utils')
 const MarkdownIt = require('markdown-it')
 
+
 const schema = {
     type: 'object',
     properties: {
