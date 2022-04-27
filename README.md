@@ -18,6 +18,12 @@
 
 
 ### markdown-loader
+
+**npm包名**：webpack-markdown-loader-self
+
+**npm链接**：https://www.npmjs.com/package/webpack-markdown-loader-self
+
+
 1. 先配置好基本的信息，写好基本的index.js index.css a.js，自动创建html标签（使用模版）
 2. 书写 markdown-loader.js
 - 目的：通过markdown书写文章，之后利用该loader进行处理，将markdown自动变为html语句，并且将html引入我们的模版文件中，达到通过markdown书写，完成页面的内容结构
@@ -58,6 +64,10 @@
 ## plugin
 ### clean-plugin
 
+**npm包名**：webpack-clean-files-plugin
+
+**npm链接**：https://www.npmjs.com/package/webpack-clean-files-plugin
+
 - 目的：清空dist文件夹的插件，每次执行的时候，生成新的文件。但是保留某些文件不清理（例如 .git文件夹，这里记录管理我们项目，及上传github的配置，如果清理了，那之后管理的时候或者上传github时，需要重新配置）
 - 关键：
   1. 使用了npm库的del包，可以删除路径下的所有文件，保留某些文件
@@ -97,6 +107,10 @@
 
 
 ### count-time-plugin
+
+**npm包名**：count-time-plugin
+
+**npm链接**：https://www.npmjs.com/package/count-time-plugin
 
 记录编译时长
 
