@@ -12,7 +12,6 @@ const schema = {
     }
 }
 
-
 module.exports = function(source) {
     const options = this.getOptions()
     const md = MarkdownIt(options)
